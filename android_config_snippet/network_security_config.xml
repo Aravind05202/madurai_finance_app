@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Allows plain http:// traffic (Android blocks it by default from API 28+).
+  After `flutter create`, put this file at:
+    android/app/src/main/res/xml/network_security_config.xml
+  and add android:networkSecurityConfig="@xml/network_security_config"
+  to the <application> tag in android/app/src/main/AndroidManifest.xml.
+  Remove this once your API is served over https:// (recommended for production).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

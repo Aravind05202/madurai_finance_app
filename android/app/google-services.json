@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "875176998844",
+    "project_id": "madurai-finance",
+    "storage_bucket": "madurai-finance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875176998844:android:789a9459c1d463caa3ddb9",
+        "android_client_info": {
+          "package_name": "com.example.madurai_finance_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqYNtVUeTb05Kq0b8JACZmrgrssaawuj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
